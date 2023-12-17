@@ -25,6 +25,13 @@ switch ($color) {
         echo "Neither";
 }
 
-//
+//match
+$color = "red";
+
+match ($color) {
+    "red" => print "The color is red.",
+    "green" => print "The color is green.",
+    default => print "Neither",
+};
 
 ?>
