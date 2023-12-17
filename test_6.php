@@ -30,6 +30,18 @@ foreach ($colors as $color) {
     echo $color;
 }
 
+//foreach with key
+
+$colors = array(
+    "red" => "The color of blood",
+    "green" => "The color of grass",
+    "blue" => "The color of the sky"
+);
+
+foreach ($colors as $key => $value) {
+    echo $key . " " . $value;
+}
+
 //break
 
 for ($i = 0; $i < 10; $i++) {
