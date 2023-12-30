@@ -21,7 +21,7 @@ function get_weather_switch ($weather) {
     }
 }
 
-get_weather_switch("sunny");
+get_weather_switch("sunny"); // It's sunny!
 
 //match case
 
@@ -34,5 +34,7 @@ function get_weather_match ($weather) {
         default => "No weather forecast available."
     };
 }
+
+echo get_weather_match("sunny"); // It's sunny!
 
 ?>
