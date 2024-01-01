@@ -1,7 +1,5 @@
 <?php
 
-// i like dogs
-
 try {
     $pet = readline("Enter your pet's name: ");
 
