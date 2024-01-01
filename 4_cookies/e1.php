@@ -14,4 +14,8 @@ setcookie(
 
 echo $_COOKIE["name"]; // Test Cookie
 
+echo '<pre>';
+    var_dump($_COOKIE);
+echo '</pre>';
+
 ?>
